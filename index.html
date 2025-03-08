@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation Bar Mitsvah</title>
+    <style>
+        body {
+            text-align: center;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg') no-repeat center center/cover;
+            color: #0033A0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 50px auto;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 15px;
+        }
+        h1 { font-size: 2.5em; }
+        p { font-size: 1.2em; }
+        .btn {
+            background: #0033A0;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #005BBB;
+        }
+        .music {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Bar Mitsvah d'Eliav 🎉</h1>
+        <p>Rejoins-nous pour célébrer ce moment unique !</p>
+        <p>📍 Lieu : Synagogue Toratenou, Paris</p>
+        <p>📅 Date : 1er mai 2025</p>
+        <p>⏰ Heure : 9h30</p>
+        
+        <!-- Musique -->
+        <div class="music">
+            <p>🎶 Écoute la musique :</p>
+            <audio controls autoplay loop>
+                <source src="https://www.youtube.com/watch?v=342pAULJUCY&ab_channel=%D7%A2%D7%95%D7%9E%D7%A8%D7%90%D7%93%D7%9D-%D7%94%D7%A2%D7%A8%D7%95%D7%A5%D7%94%D7%A8%D7%A9%D7%9E%D7%99" type="audio/mp3">
+            </audio>
+        </div>
+
+        <br>
+        <!-- Bouton RSVP -->
+        <button class="btn" onclick="alert('Merci pour ta confirmation !')">Confirmer ma présence</button>
+    </div>
+</body>
+</html>
